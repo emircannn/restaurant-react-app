@@ -9,7 +9,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className="w-full bg-rose-600 ">
+    <div className="w-full bg-rose-600 sticky top-0 z-30">
       <div className="mx-[7.5%] py-6 flex items-center gap-4 justify-between">
         <div className="flex items-center justify-center gap-4">
           <IoMenu
