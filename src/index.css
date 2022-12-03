@@ -12,6 +12,6 @@ body{
    
 
    .button {
-    @apply px-6 py-3 rounded-full bg-rose-600 text-white text-lg hover:bg-white hover:text-rose-600 duration-300 max-sm:px-4 py-2;
+    @apply px-6 py-3 rounded-full bg-rose-600 text-white text-lg hover:bg-white hover:text-rose-600 duration-300 max-sm:px-4 max-sm:py-2 max-sm:text-base;
   }
 }
