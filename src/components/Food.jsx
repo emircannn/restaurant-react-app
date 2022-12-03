@@ -38,9 +38,9 @@ const Food = () => {
         </div>
 
         {/*Food*/}
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
+        <div className='grid grid-cols-2 text-xs md:grid-cols-3 md:text-lg lg:grid-cols-4 gap-6 pt-4'>
             {foods.map((food, index) =>(
-                <div key={index} className='boder shadow-2xl rounded-lg hover:scale-105 duration-300'>
+                <div key={index} className='boder rounded-lg hover:scale-105 duration-300'>
                     <img src={food.image} alt={food.name} 
                     className='w-full h-[200px] object-cover rounded-t-lg'/>
                     <div className='flex justify-between rounded-b-lg hfu bg-rose-600 items-center px-2 py-4'>

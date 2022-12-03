@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-rose-600 ">
-      <div className="mx-[7.5%] py-6 flex items-center justify-between">
+      <div className="mx-[7.5%] py-6 flex items-center gap-4 justify-between">
         <div className="flex items-center justify-center gap-4">
           <IoMenu
             onClick={() => setNav(!nav)}
@@ -35,9 +35,9 @@ const Navbar = () => {
         <div className="flex items-center justify-center gap-2 max-md:hidden">
           <button className="bg-white px-6 py-3 rounded-full flex items-center justify-center 
           gap-2 group hover:bg-gray-800 duration-300">
-            <span className="text-rose-600 font-medium group-hover:text-white duration-300">
+            {/*<span className="text-rose-600 font-medium group-hover:text-white duration-300">
               Sepet
-            </span>
+  </span>*/}
             <BsFillBasket2Fill
               className="text-rose-600 group-hover:text-white duration-300"
               size={25}
