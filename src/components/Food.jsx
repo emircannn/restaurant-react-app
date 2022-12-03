@@ -44,7 +44,7 @@ const Food = () => {
                     <img src={food.image} alt={food.name} 
                     className='w-full h-[200px] object-cover rounded-t-lg'/>
                     <div className='flex justify-between rounded-b-lg hfu bg-rose-600 items-center px-2 py-4'>
-                        <p className='font-bold w-[60%] text-center text-white'>{food.name}</p>
+                        <p className='font-bold w-[60%] text-start p-1 text-white'>{food.name}</p>
                         <p className='font-semibold w-[40%] text-center p-1 text-white'>{(food.price.toFixed(2))} ₺</p>
                     </div>
                 </div>
